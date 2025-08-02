@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from "@/components/ui/card"
 import { BookOpen, Gamepad2, PenTool, BarChart3, Calendar, Settings, Lightbulb } from "lucide-react"
 
-import EditorWithTabs from '@/editor-with-tabs';
+import EditorWithTabs from "@/components/editor-with-tabs"
 import GameModes from "@/components/game-modes"
 import DrawingCanvas from "@/components/drawing-canvas"
 import ChartGenerator from "@/components/chart-generator"
