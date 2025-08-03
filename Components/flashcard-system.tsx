@@ -3,13 +3,13 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Button } from "@/Components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Input } from "@/Components/ui/input"
+import { Textarea } from "@/Components/ui/textarea"
+import { Badge } from "@/Components/ui/badge"
+import { Progress } from "@/Components/ui/progress"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/Components/ui/select"
 import { BookOpen, Plus, RotateCcw, Check, X, Shuffle, Download, Upload, Trash2, Edit } from "lucide-react"
 
 interface Flashcard {
