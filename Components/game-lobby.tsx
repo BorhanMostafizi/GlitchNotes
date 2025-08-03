@@ -1,12 +1,12 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/Components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Badge } from "@/Components/ui/badge"
+import { Input } from "@/Components/ui/input"
 import { Users, Crown, MessageCircle, Copy, Check, Plus, Minus, X } from "lucide-react"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/Components/ui/select"
 
 interface Player {
   id: string
