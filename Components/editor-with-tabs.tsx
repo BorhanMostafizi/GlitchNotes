@@ -9,7 +9,7 @@ import PlannerSystem from "./planner-system"
 import ForgetMeNotSystem from "./forget-me-not-system"
 import DoNotDisturb from "./do-not-disturb"
 import LockedMode from "./locked-mode"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs"
 
 interface Note {
   id: string
