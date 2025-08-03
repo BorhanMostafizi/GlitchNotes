@@ -3,10 +3,10 @@
 import type React from "react"
 
 import { useRef, useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Slider } from "@/components/ui/slider"
+import { Button } from "@/Components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Badge } from "@/Components/ui/badge"
+import { Slider } from "@/Components/ui/slider"
 import { Brush, Eraser, Palette, Download, Trash2, Undo, Redo, Circle, Square, Minus } from "lucide-react"
 
 interface DrawingCanvasProps {
