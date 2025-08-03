@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Progress } from "@/components/ui/progress"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "@/Components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Input } from "@/Components/ui/input"
+import { Textarea } from "@/Components/ui/textarea"
+import { Progress } from "@/Components/ui/progress"
+import { Badge } from "@/Components/ui/badge"
 import { Brain, Clock, Lightbulb, RefreshCw, CheckCircle, XCircle } from "lucide-react"
 
 interface Note {
