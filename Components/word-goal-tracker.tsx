@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Input } from "@/Components/ui/input"
+import { Badge } from "@/Components/ui/badge"
+import { Progress } from "@/Components/ui/progress"
 import { Target, TrendingUp, Award, Calendar } from "lucide-react"
 
 interface WordGoalTrackerProps {
