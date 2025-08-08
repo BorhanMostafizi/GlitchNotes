@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
+import { Inter as GeistSansFont } from 'next/font/google'
+import { Roboto_Mono as GeistMonoFont } from 'next/font/google'
+
+export const GeistSans = GeistSansFont({ subsets: ['latin'] })
+export const GeistMono = GeistMonoFont({ subsets: ['latin'] })
 import './globals.css'
 
 export const metadata: Metadata = {
