@@ -57,15 +57,19 @@ export default function NoteTabs({
     setEditingTitle(note.title)
   }
 
-  const formatLastModified = (date: Date) => {
-    const now = new Date()
-    const diffInMinutes = Math.floor((now.getTime() - date.getTime()) / (1000 * 60))
-
-    if (diffInMinutes < 1) return "Just now"
-    if (diffInMinutes < 60) return `${diffInMinutes}m ago`
-    if (diffInMinutes < 1440) return `${Math.floor(diffInMinutes / 60)}h ago`
-    return date.toLocaleDateString()
+ const formatLastModified = (date?: Date | null) => {
+  if (!date || !(date instanceof Date) || isNaN(date.getTime())) {
+    return "Unknown"
   }
+
+  const now = new Date()
+  const diffInMinutes = Math.floor((now.getTime() - date.getTime()) / (1000 * 60))
+
+  if (diffInMinutes < 1) return "Just now"
+  if (diffInMinutes < 60) return `${diffInMinutes}m ago`
+  if (diffInMinutes < 1440) return `${Math.floor(diffInMinutes / 60)}h ago`
+  return date.toLocaleDateString()
+}
 
   return (
     <div className="w-full">
